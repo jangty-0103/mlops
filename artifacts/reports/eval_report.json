@@ -1,0 +1,37 @@
+{
+  "model_version": "94c479816748",
+  "threshold": 0.5,
+  "test_rows": 1032,
+  "test_class_counts": {
+    "ham": 904,
+    "spam": 128
+  },
+  "test_sha256": "2160684d9344e4e247ec30d09821cb98c9e399e3dee9c3a9e78cbd010a700918",
+  "model": {
+    "accuracy": 0.9835,
+    "spam_precision": 0.9302,
+    "spam_recall": 0.9375,
+    "spam_f1": 0.9339,
+    "confusion": {
+      "spam_as_spam": 120,
+      "ham_as_spam": 9,
+      "spam_as_ham": 8,
+      "ham_as_ham": 895
+    }
+  },
+  "baseline_majority": {
+    "always_answers": "ham",
+    "accuracy": 0.876,
+    "spam_precision": 0.0,
+    "spam_recall": 0.0,
+    "spam_f1": 0.0,
+    "confusion": {
+      "spam_as_spam": 0,
+      "ham_as_spam": 0,
+      "spam_as_ham": 128,
+      "ham_as_ham": 904
+    }
+  },
+  "error_count": 17,
+  "errors_file": "C:\\dev\\기말\\artifacts\\reports\\eval_errors.jsonl"
+}

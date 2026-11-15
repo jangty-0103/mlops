@@ -1,0 +1,5 @@
+# 학습, 평가, 검사용 (Python 3.12에서 확인). 서비스 코드(spamsvc)는 표준 라이브러리만 쓴다.
+scikit-learn==1.9.1
+numpy==2.5.2
+scipy==1.18.1
+pytest==9.2.0
