@@ -12,8 +12,6 @@ def model_path(tmp_path, monkeypatch):
     path = tmp_path / "model.json"
     path.write_bytes(raw())
     monkeypatch.setenv("MODEL_PATH", str(path))
-    monkeypatch.delenv("MODEL_BUCKET", raising=False)
-    monkeypatch.delenv("MODEL_KEY", raising=False)
     monkeypatch.delenv("MAX_CHARS", raising=False)
     handler._cache.clear()
     return path

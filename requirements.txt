@@ -3,3 +3,5 @@ scikit-learn==1.9.1
 numpy==2.5.2
 scipy==1.18.1
 pytest==9.2.0
+# AWS 배포와 호출용 (cloud/)
+boto3==1.44.3

@@ -17,5 +17,14 @@
   "serve": {
     "threshold": 0.5,
     "max_chars": 1000
+  },
+  "cloud": {
+    "region": "ap-northeast-2",
+    "function_name": "{user}_mlops",
+    "role_name": "yeonsung-lambda-basic-role",
+    "runtime": "python3.12",
+    "memory_mb": 128,
+    "timeout_s": 10,
+    "log_retention_days": 7
   }
 }
