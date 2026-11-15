@@ -1,0 +1,21 @@
+{
+  "data": {
+    "url": "https://archive.ics.uci.edu/static/public/228/sms+spam+collection.zip",
+    "member": "SMSSpamCollection",
+    "sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3",
+    "test_size": 0.2,
+    "seed": 42
+  },
+  "train": {
+    "min_df": 2,
+    "c_grid": [0.1, 1, 10, 100],
+    "cv_folds": 5,
+    "class_weight": "balanced",
+    "max_iter": 2000,
+    "seed": 42
+  },
+  "serve": {
+    "threshold": 0.5,
+    "max_chars": 1000
+  }
+}

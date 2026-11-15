@@ -1,0 +1,30 @@
+{
+  "source": {
+    "name": "SMS Spam Collection (UCI Machine Learning Repository)",
+    "page": "https://archive.ics.uci.edu/dataset/228/sms+spam+collection",
+    "doi": "10.24432/C5CC84",
+    "license": "CC BY 4.0"
+  },
+  "downloaded_this_run": false,
+  "raw_sha256": "1587ea43e58e82b14ff1f5425c88e17f8496bfcdb67a583dbff9eefaf9963ce3",
+  "raw_lines": 5574,
+  "dropped_duplicate_rows": 414,
+  "rows_after_cleaning": 5160,
+  "class_counts": {
+    "ham": 4518,
+    "spam": 642
+  },
+  "train_rows": 4128,
+  "train_class_counts": {
+    "ham": 3614,
+    "spam": 514
+  },
+  "test_rows": 1032,
+  "test_class_counts": {
+    "ham": 904,
+    "spam": 128
+  },
+  "train_test_overlap": 0,
+  "train_sha256": "1c5a7d99099258055c8decf3f367575ba4e1e74a79a079cacce10971df7608fd",
+  "test_sha256": "2160684d9344e4e247ec30d09821cb98c9e399e3dee9c3a9e78cbd010a700918"
+}

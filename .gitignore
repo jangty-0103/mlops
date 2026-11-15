@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
+build/
+*.part
+
+# 원본에서 다시 만들 수 있는 가공 데이터
+data/processed/
+
+# 인증 정보
+.env
+.aws/
+*.pem

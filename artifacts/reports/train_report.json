@@ -1,0 +1,33 @@
+{
+  "model_version": "94c479816748",
+  "model_file": "artifacts/model/model.json",
+  "model_bytes": 156832,
+  "vocabulary_size": 3279,
+  "train_rows": 4128,
+  "train_sha256": "1c5a7d99099258055c8decf3f367575ba4e1e74a79a079cacce10971df7608fd",
+  "best_C": 10,
+  "cv_f1_by_C": [
+    {
+      "C": 0.1,
+      "mean_f1": 0.8915,
+      "std_f1": 0.0166
+    },
+    {
+      "C": 1.0,
+      "mean_f1": 0.9149,
+      "std_f1": 0.0224
+    },
+    {
+      "C": 10.0,
+      "mean_f1": 0.933,
+      "std_f1": 0.0283
+    },
+    {
+      "C": 100.0,
+      "mean_f1": 0.9289,
+      "std_f1": 0.0257
+    }
+  ],
+  "parity_max_abs_diff": 2.220446049250313e-16,
+  "parity_tolerance": 1e-09
+}
