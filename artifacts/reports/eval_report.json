@@ -33,5 +33,5 @@
     }
   },
   "error_count": 17,
-  "errors_file": "C:\\dev\\기말\\artifacts\\reports\\eval_errors.jsonl"
+  "errors_file": "artifacts/reports/eval_errors.jsonl"
 }

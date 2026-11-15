@@ -4,9 +4,8 @@
 - HTTP 요청(함수 URL, API Gateway): event["body"]에 JSON 문자열 {"text": "..."}
 - 직접 호출(lambda invoke): event 자체가 {"text": "..."}
 
-모델 위치는 환경변수로 정한다.
-- MODEL_PATH: 로컬 파일 경로 (로컬 검사용)
-- MODEL_BUCKET + MODEL_KEY: S3 위치 (클라우드 실행용)
+모델 파일 위치는 환경변수 MODEL_PATH로 정한다.
+Lambda에서는 배포 묶음 안의 상대 경로(model/model.json)를 쓴다.
 """
 from __future__ import annotations
 
@@ -16,7 +15,7 @@ import os
 import time
 import uuid
 
-from .model import SpamModel, load_model_bytes
+from .model import SpamModel, load_model_file
 
 DEFAULT_MAX_CHARS = 1000
 
@@ -33,36 +32,16 @@ class ModelLoadError(RuntimeError):
     """모델을 읽지 못했을 때."""
 
 
-def _model_source() -> tuple[str, str, str]:
-    path = os.environ.get("MODEL_PATH")
-    if path:
-        return ("file", path, "")
-    bucket = os.environ.get("MODEL_BUCKET")
-    key = os.environ.get("MODEL_KEY")
-    if bucket and key:
-        return ("s3", bucket, key)
-    raise ModelLoadError("MODEL_PATH 또는 MODEL_BUCKET/MODEL_KEY 환경변수가 필요합니다")
-
-
-def _read_model_bytes(source: tuple[str, str, str]) -> bytes:
-    kind, first, second = source
-    if kind == "file":
-        with open(first, "rb") as f:
-            return f.read()
-    import boto3  # Lambda 런타임에 기본 포함
-
-    return boto3.client("s3").get_object(Bucket=first, Key=second)["Body"].read()
-
-
 def _get_model() -> SpamModel:
-    source = _model_source()
-    if source not in _cache:
+    path = os.environ.get("MODEL_PATH")
+    if not path:
+        raise ModelLoadError("MODEL_PATH 환경변수가 필요합니다")
+    if path not in _cache:
         try:
-            _cache[source] = load_model_bytes(_read_model_bytes(source))
+            _cache[path] = load_model_file(path)
         except Exception as exc:
-            location = source[1] if source[0] == "file" else f"s3://{source[1]}/{source[2]}"
-            raise ModelLoadError(f"{location}: {type(exc).__name__}: {exc}") from exc
-    return _cache[source]
+            raise ModelLoadError(f"{type(exc).__name__}: {exc}") from exc
+    return _cache[path]
 
 
 def _payload(event) -> dict:
