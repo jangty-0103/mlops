@@ -1,0 +1,27 @@
+{
+  "checked_at": "2026-11-16T14:27:20+00:00",
+  "region": "ap-northeast-2",
+  "function": {
+    "name": "<user>_mlops",
+    "exists": true,
+    "state": "Active",
+    "last_update_status": "Successful",
+    "last_modified": "2026-11-16T14:25:30.000+0000",
+    "runtime": "python3.12",
+    "memory_mb": 128,
+    "timeout_s": 10,
+    "package_sha256": "1lIV5Na8dhskkbZxNbbpcguur89H5tRvCpwFB76Jv7A=",
+    "package_bytes": 55414,
+    "role": "arn:aws:iam::<account>:role/yeonsung-lambda-basic-role",
+    "environment": {
+      "MAX_CHARS": "1000",
+      "MODEL_PATH": "model/model.json"
+    }
+  },
+  "logs": {
+    "log_group": "/aws/lambda/<user>_mlops",
+    "exists": true,
+    "retention_days": 7,
+    "stored_bytes": 2441
+  }
+}

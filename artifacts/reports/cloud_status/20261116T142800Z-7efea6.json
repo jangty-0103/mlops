@@ -1,0 +1,12 @@
+{
+  "checked_at": "2026-11-16T14:28:01+00:00",
+  "region": "ap-northeast-2",
+  "function": {
+    "name": "<user>_mlops",
+    "exists": false
+  },
+  "logs": {
+    "log_group": "/aws/lambda/<user>_mlops",
+    "exists": false
+  }
+}
