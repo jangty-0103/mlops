@@ -1,0 +1,111 @@
+{
+  "target": "lambda:<user>_mlops",
+  "expected_model_version": "94c479816748",
+  "checked_at": "2026-11-16T14:25:40+00:00",
+  "passed": 8,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "normal_spam",
+      "request": "{\"text\": \"WINNER!! You have won a 1000 cash prize. Call 09061701461 to claim now.\"}",
+      "status": 200,
+      "response": {
+        "label": "spam",
+        "spam_probability": 0.999595,
+        "threshold": 0.5,
+        "model_version": "94c479816748",
+        "request_id": "95503dd5-fde8-4a6d-ad12-b5fb798d5cce"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "normal_ham",
+      "request": "{\"text\": \"Hey, are we still meeting for lunch tomorrow?\"}",
+      "status": 200,
+      "response": {
+        "label": "ham",
+        "spam_probability": 0.004078,
+        "threshold": 0.5,
+        "model_version": "94c479816748",
+        "request_id": "37e36fd4-36bf-46eb-918e-f5c82c8576d1"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "direct_invoke",
+      "request": "{\"text\": \"Ok, see you at home later.\"}",
+      "status": 200,
+      "response": {
+        "label": "ham",
+        "spam_probability": 0.000751,
+        "threshold": 0.5,
+        "model_version": "94c479816748",
+        "request_id": "a89978fc-7426-45c3-8138-94d240e9fd00"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "missing_text",
+      "request": "{}",
+      "status": 400,
+      "response": {
+        "error": "missing_text",
+        "message": "필수 입력값 text가 없습니다",
+        "request_id": "c1469325-3998-44f9-ad42-734dbdec6340"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "empty_text",
+      "request": "{\"text\": \"   \"}",
+      "status": 400,
+      "response": {
+        "error": "empty_text",
+        "message": "text가 비어 있습니다",
+        "request_id": "ee335ee6-746b-4462-bcdc-fce2d4066b34"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "wrong_type",
+      "request": "{\"text\": 123}",
+      "status": 400,
+      "response": {
+        "error": "invalid_text_type",
+        "message": "text는 문자열이어야 합니다",
+        "request_id": "5197d356-5cd4-45d2-a60d-a0ffda1792b5"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "too_long",
+      "request": "{\"text\": \"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa...",
+      "status": 400,
+      "response": {
+        "error": "text_too_long",
+        "message": "text는 1000자 이하여야 합니다",
+        "request_id": "b4c89f69-63e4-441d-abb2-66e572a1b801"
+      },
+      "passed": true,
+      "problems": []
+    },
+    {
+      "name": "invalid_json",
+      "request": "not json",
+      "status": 400,
+      "response": {
+        "error": "invalid_json",
+        "message": "요청 본문이 JSON이 아닙니다",
+        "request_id": "c17257a7-f370-40fb-a9d6-32dea6c59bf7"
+      },
+      "passed": true,
+      "problems": []
+    }
+  ]
+}
