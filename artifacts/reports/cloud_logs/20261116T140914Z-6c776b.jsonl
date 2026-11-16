@@ -1,0 +1,37 @@
+{"timestamp": 1794838125218, "message": "INIT_START Runtime Version: python:3.12.mainlinev2.v86\tRuntime Version ARN: arn:aws:lambda:ap-northeast-2::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534"}
+{"timestamp": 1794838125328, "message": "START RequestId: 6c148f3e-a09f-4b1c-81b8-ba8134585304 Version: $LATEST"}
+{"timestamp": 1794838125329, "message": "{\"event\": \"failed\", \"request_id\": \"6c148f3e-a09f-4b1c-81b8-ba8134585304\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.07}"}
+{"timestamp": 1794838125331, "message": "END RequestId: 6c148f3e-a09f-4b1c-81b8-ba8134585304"}
+{"timestamp": 1794838125336, "message": "REPORT RequestId: 6c148f3e-a09f-4b1c-81b8-ba8134585304\tDuration: 2.08 ms\tBilled Duration: 109 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB\tInit Duration: 106.31 ms"}
+{"timestamp": 1794838127646, "message": "START RequestId: 1d326e43-9a3b-4a89-9bbc-2fae139bbbdb Version: $LATEST"}
+{"timestamp": 1794838127646, "message": "{\"event\": \"failed\", \"request_id\": \"1d326e43-9a3b-4a89-9bbc-2fae139bbbdb\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.07}"}
+{"timestamp": 1794838127648, "message": "END RequestId: 1d326e43-9a3b-4a89-9bbc-2fae139bbbdb"}
+{"timestamp": 1794838127648, "message": "REPORT RequestId: 1d326e43-9a3b-4a89-9bbc-2fae139bbbdb\tDuration: 1.74 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127689, "message": "START RequestId: 667b0037-284b-43f4-b871-841e8bdffe61 Version: $LATEST"}
+{"timestamp": 1794838127690, "message": "{\"event\": \"failed\", \"request_id\": \"667b0037-284b-43f4-b871-841e8bdffe61\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.07}"}
+{"timestamp": 1794838127691, "message": "END RequestId: 667b0037-284b-43f4-b871-841e8bdffe61"}
+{"timestamp": 1794838127691, "message": "REPORT RequestId: 667b0037-284b-43f4-b871-841e8bdffe61\tDuration: 1.66 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127710, "message": "START RequestId: 641839a3-a113-4ca4-ac74-891cfaf02d9a Version: $LATEST"}
+{"timestamp": 1794838127710, "message": "{\"event\": \"failed\", \"request_id\": \"641839a3-a113-4ca4-ac74-891cfaf02d9a\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.05}"}
+{"timestamp": 1794838127712, "message": "END RequestId: 641839a3-a113-4ca4-ac74-891cfaf02d9a"}
+{"timestamp": 1794838127712, "message": "REPORT RequestId: 641839a3-a113-4ca4-ac74-891cfaf02d9a\tDuration: 1.64 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127731, "message": "START RequestId: 89bf8d83-1159-4041-ba2f-1766550a0c60 Version: $LATEST"}
+{"timestamp": 1794838127731, "message": "{\"event\": \"rejected\", \"request_id\": \"89bf8d83-1159-4041-ba2f-1766550a0c60\", \"status\": 400, \"error\": \"missing_text\", \"ms\": 0.03}"}
+{"timestamp": 1794838127736, "message": "END RequestId: 89bf8d83-1159-4041-ba2f-1766550a0c60"}
+{"timestamp": 1794838127736, "message": "REPORT RequestId: 89bf8d83-1159-4041-ba2f-1766550a0c60\tDuration: 1.53 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127749, "message": "START RequestId: b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20 Version: $LATEST"}
+{"timestamp": 1794838127750, "message": "{\"event\": \"rejected\", \"request_id\": \"b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20\", \"status\": 400, \"error\": \"empty_text\", \"ms\": 0.02}"}
+{"timestamp": 1794838127757, "message": "END RequestId: b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20"}
+{"timestamp": 1794838127757, "message": "REPORT RequestId: b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20\tDuration: 7.22 ms\tBilled Duration: 8 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127790, "message": "START RequestId: 41a0f4bc-9f41-4e3c-ae27-df23a91ae137 Version: $LATEST"}
+{"timestamp": 1794838127791, "message": "{\"event\": \"rejected\", \"request_id\": \"41a0f4bc-9f41-4e3c-ae27-df23a91ae137\", \"status\": 400, \"error\": \"invalid_text_type\", \"ms\": 0.02}"}
+{"timestamp": 1794838127792, "message": "END RequestId: 41a0f4bc-9f41-4e3c-ae27-df23a91ae137"}
+{"timestamp": 1794838127792, "message": "REPORT RequestId: 41a0f4bc-9f41-4e3c-ae27-df23a91ae137\tDuration: 1.51 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127809, "message": "START RequestId: 5afd61bc-136d-4347-b1e1-d406ce0beef7 Version: $LATEST"}
+{"timestamp": 1794838127810, "message": "{\"event\": \"rejected\", \"request_id\": \"5afd61bc-136d-4347-b1e1-d406ce0beef7\", \"status\": 400, \"error\": \"text_too_long\", \"ms\": 0.03}"}
+{"timestamp": 1794838127811, "message": "END RequestId: 5afd61bc-136d-4347-b1e1-d406ce0beef7"}
+{"timestamp": 1794838127816, "message": "REPORT RequestId: 5afd61bc-136d-4347-b1e1-d406ce0beef7\tDuration: 1.48 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127832, "message": "START RequestId: 3659b0d5-870d-48ca-9c02-819a78e0d00c Version: $LATEST"}
+{"timestamp": 1794838127833, "message": "{\"event\": \"rejected\", \"request_id\": \"3659b0d5-870d-48ca-9c02-819a78e0d00c\", \"status\": 400, \"error\": \"invalid_json\", \"ms\": 0.04}"}
+{"timestamp": 1794838127837, "message": "END RequestId: 3659b0d5-870d-48ca-9c02-819a78e0d00c"}
+{"timestamp": 1794838127837, "message": "REPORT RequestId: 3659b0d5-870d-48ca-9c02-819a78e0d00c\tDuration: 4.60 ms\tBilled Duration: 5 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
