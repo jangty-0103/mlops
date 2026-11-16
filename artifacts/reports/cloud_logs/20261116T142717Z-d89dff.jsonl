@@ -1,0 +1,116 @@
+{"timestamp": 1794838125218, "message": "INIT_START Runtime Version: python:3.12.mainlinev2.v86\tRuntime Version ARN: arn:aws:lambda:ap-northeast-2::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534"}
+{"timestamp": 1794838125328, "message": "START RequestId: 6c148f3e-a09f-4b1c-81b8-ba8134585304 Version: $LATEST"}
+{"timestamp": 1794838125329, "message": "{\"event\": \"failed\", \"request_id\": \"6c148f3e-a09f-4b1c-81b8-ba8134585304\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.07}"}
+{"timestamp": 1794838125331, "message": "END RequestId: 6c148f3e-a09f-4b1c-81b8-ba8134585304"}
+{"timestamp": 1794838125336, "message": "REPORT RequestId: 6c148f3e-a09f-4b1c-81b8-ba8134585304\tDuration: 2.08 ms\tBilled Duration: 109 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB\tInit Duration: 106.31 ms"}
+{"timestamp": 1794838127646, "message": "START RequestId: 1d326e43-9a3b-4a89-9bbc-2fae139bbbdb Version: $LATEST"}
+{"timestamp": 1794838127646, "message": "{\"event\": \"failed\", \"request_id\": \"1d326e43-9a3b-4a89-9bbc-2fae139bbbdb\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.07}"}
+{"timestamp": 1794838127648, "message": "END RequestId: 1d326e43-9a3b-4a89-9bbc-2fae139bbbdb"}
+{"timestamp": 1794838127648, "message": "REPORT RequestId: 1d326e43-9a3b-4a89-9bbc-2fae139bbbdb\tDuration: 1.74 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127689, "message": "START RequestId: 667b0037-284b-43f4-b871-841e8bdffe61 Version: $LATEST"}
+{"timestamp": 1794838127690, "message": "{\"event\": \"failed\", \"request_id\": \"667b0037-284b-43f4-b871-841e8bdffe61\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.07}"}
+{"timestamp": 1794838127691, "message": "END RequestId: 667b0037-284b-43f4-b871-841e8bdffe61"}
+{"timestamp": 1794838127691, "message": "REPORT RequestId: 667b0037-284b-43f4-b871-841e8bdffe61\tDuration: 1.66 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127710, "message": "START RequestId: 641839a3-a113-4ca4-ac74-891cfaf02d9a Version: $LATEST"}
+{"timestamp": 1794838127710, "message": "{\"event\": \"failed\", \"request_id\": \"641839a3-a113-4ca4-ac74-891cfaf02d9a\", \"status\": 500, \"error\": \"model_unavailable\", \"detail\": \"FileNotFoundError: [Errno 2] No such file or directory: 'model/missing.json'\", \"ms\": 0.05}"}
+{"timestamp": 1794838127712, "message": "END RequestId: 641839a3-a113-4ca4-ac74-891cfaf02d9a"}
+{"timestamp": 1794838127712, "message": "REPORT RequestId: 641839a3-a113-4ca4-ac74-891cfaf02d9a\tDuration: 1.64 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127731, "message": "START RequestId: 89bf8d83-1159-4041-ba2f-1766550a0c60 Version: $LATEST"}
+{"timestamp": 1794838127731, "message": "{\"event\": \"rejected\", \"request_id\": \"89bf8d83-1159-4041-ba2f-1766550a0c60\", \"status\": 400, \"error\": \"missing_text\", \"ms\": 0.03}"}
+{"timestamp": 1794838127736, "message": "END RequestId: 89bf8d83-1159-4041-ba2f-1766550a0c60"}
+{"timestamp": 1794838127736, "message": "REPORT RequestId: 89bf8d83-1159-4041-ba2f-1766550a0c60\tDuration: 1.53 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127749, "message": "START RequestId: b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20 Version: $LATEST"}
+{"timestamp": 1794838127750, "message": "{\"event\": \"rejected\", \"request_id\": \"b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20\", \"status\": 400, \"error\": \"empty_text\", \"ms\": 0.02}"}
+{"timestamp": 1794838127757, "message": "END RequestId: b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20"}
+{"timestamp": 1794838127757, "message": "REPORT RequestId: b9a1f9fa-1e4e-4672-b803-ccd5c0fa9d20\tDuration: 7.22 ms\tBilled Duration: 8 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127790, "message": "START RequestId: 41a0f4bc-9f41-4e3c-ae27-df23a91ae137 Version: $LATEST"}
+{"timestamp": 1794838127791, "message": "{\"event\": \"rejected\", \"request_id\": \"41a0f4bc-9f41-4e3c-ae27-df23a91ae137\", \"status\": 400, \"error\": \"invalid_text_type\", \"ms\": 0.02}"}
+{"timestamp": 1794838127792, "message": "END RequestId: 41a0f4bc-9f41-4e3c-ae27-df23a91ae137"}
+{"timestamp": 1794838127792, "message": "REPORT RequestId: 41a0f4bc-9f41-4e3c-ae27-df23a91ae137\tDuration: 1.51 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127809, "message": "START RequestId: 5afd61bc-136d-4347-b1e1-d406ce0beef7 Version: $LATEST"}
+{"timestamp": 1794838127810, "message": "{\"event\": \"rejected\", \"request_id\": \"5afd61bc-136d-4347-b1e1-d406ce0beef7\", \"status\": 400, \"error\": \"text_too_long\", \"ms\": 0.03}"}
+{"timestamp": 1794838127811, "message": "END RequestId: 5afd61bc-136d-4347-b1e1-d406ce0beef7"}
+{"timestamp": 1794838127816, "message": "REPORT RequestId: 5afd61bc-136d-4347-b1e1-d406ce0beef7\tDuration: 1.48 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838127832, "message": "START RequestId: 3659b0d5-870d-48ca-9c02-819a78e0d00c Version: $LATEST"}
+{"timestamp": 1794838127833, "message": "{\"event\": \"rejected\", \"request_id\": \"3659b0d5-870d-48ca-9c02-819a78e0d00c\", \"status\": 400, \"error\": \"invalid_json\", \"ms\": 0.04}"}
+{"timestamp": 1794838127837, "message": "END RequestId: 3659b0d5-870d-48ca-9c02-819a78e0d00c"}
+{"timestamp": 1794838127837, "message": "REPORT RequestId: 3659b0d5-870d-48ca-9c02-819a78e0d00c\tDuration: 4.60 ms\tBilled Duration: 5 ms\tMemory Size: 128 MB\tMax Memory Used: 40 MB"}
+{"timestamp": 1794838175947, "message": "INIT_START Runtime Version: python:3.12.mainlinev2.v86\tRuntime Version ARN: arn:aws:lambda:ap-northeast-2::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534"}
+{"timestamp": 1794838176049, "message": "START RequestId: 606ba5bc-39c6-41bf-beb5-1d833ce3b3c3 Version: $LATEST"}
+{"timestamp": 1794838176155, "message": "{\"event\": \"predicted\", \"request_id\": \"606ba5bc-39c6-41bf-beb5-1d833ce3b3c3\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"spam\", \"spam_probability\": 0.998417, \"chars\": 81, \"ms\": 105.32}"}
+{"timestamp": 1794838176175, "message": "END RequestId: 606ba5bc-39c6-41bf-beb5-1d833ce3b3c3"}
+{"timestamp": 1794838176175, "message": "REPORT RequestId: 606ba5bc-39c6-41bf-beb5-1d833ce3b3c3\tDuration: 125.72 ms\tBilled Duration: 225 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB\tInit Duration: 98.40 ms"}
+{"timestamp": 1794838177279, "message": "START RequestId: 5a5ed840-ff1e-4f0d-9bfc-5bf29525674c Version: $LATEST"}
+{"timestamp": 1794838177280, "message": "{\"event\": \"predicted\", \"request_id\": \"5a5ed840-ff1e-4f0d-9bfc-5bf29525674c\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"ham\", \"spam_probability\": 0.006531, \"chars\": 43, \"ms\": 0.09}"}
+{"timestamp": 1794838177281, "message": "END RequestId: 5a5ed840-ff1e-4f0d-9bfc-5bf29525674c"}
+{"timestamp": 1794838177294, "message": "REPORT RequestId: 5a5ed840-ff1e-4f0d-9bfc-5bf29525674c\tDuration: 1.72 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179642, "message": "START RequestId: 696b7f60-9335-42a0-9483-17708c77d738 Version: $LATEST"}
+{"timestamp": 1794838179642, "message": "{\"event\": \"predicted\", \"request_id\": \"696b7f60-9335-42a0-9483-17708c77d738\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"spam\", \"spam_probability\": 0.999595, \"chars\": 71, \"ms\": 0.11}"}
+{"timestamp": 1794838179644, "message": "END RequestId: 696b7f60-9335-42a0-9483-17708c77d738"}
+{"timestamp": 1794838179644, "message": "REPORT RequestId: 696b7f60-9335-42a0-9483-17708c77d738\tDuration: 1.65 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179672, "message": "START RequestId: c1cb5262-3b97-47fe-ac9c-ac24b5b8cb95 Version: $LATEST"}
+{"timestamp": 1794838179672, "message": "{\"event\": \"predicted\", \"request_id\": \"c1cb5262-3b97-47fe-ac9c-ac24b5b8cb95\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"ham\", \"spam_probability\": 0.004078, \"chars\": 45, \"ms\": 0.09}"}
+{"timestamp": 1794838179674, "message": "END RequestId: c1cb5262-3b97-47fe-ac9c-ac24b5b8cb95"}
+{"timestamp": 1794838179674, "message": "REPORT RequestId: c1cb5262-3b97-47fe-ac9c-ac24b5b8cb95\tDuration: 1.55 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179690, "message": "START RequestId: 67196e7a-c25d-4ef9-8c77-68dcd47926d0 Version: $LATEST"}
+{"timestamp": 1794838179691, "message": "{\"event\": \"predicted\", \"request_id\": \"67196e7a-c25d-4ef9-8c77-68dcd47926d0\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"ham\", \"spam_probability\": 0.000751, \"chars\": 26, \"ms\": 0.07}"}
+{"timestamp": 1794838179694, "message": "END RequestId: 67196e7a-c25d-4ef9-8c77-68dcd47926d0"}
+{"timestamp": 1794838179694, "message": "REPORT RequestId: 67196e7a-c25d-4ef9-8c77-68dcd47926d0\tDuration: 1.35 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179718, "message": "START RequestId: 34e99f7b-ff13-4879-b979-d0d6f6fb2029 Version: $LATEST"}
+{"timestamp": 1794838179719, "message": "{\"event\": \"rejected\", \"request_id\": \"34e99f7b-ff13-4879-b979-d0d6f6fb2029\", \"status\": 400, \"error\": \"missing_text\", \"ms\": 0.03}"}
+{"timestamp": 1794838179720, "message": "END RequestId: 34e99f7b-ff13-4879-b979-d0d6f6fb2029"}
+{"timestamp": 1794838179720, "message": "REPORT RequestId: 34e99f7b-ff13-4879-b979-d0d6f6fb2029\tDuration: 1.49 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179739, "message": "START RequestId: 3423860d-d3fd-47b6-b19f-b995b15dc7f0 Version: $LATEST"}
+{"timestamp": 1794838179739, "message": "{\"event\": \"rejected\", \"request_id\": \"3423860d-d3fd-47b6-b19f-b995b15dc7f0\", \"status\": 400, \"error\": \"empty_text\", \"ms\": 0.03}"}
+{"timestamp": 1794838179754, "message": "END RequestId: 3423860d-d3fd-47b6-b19f-b995b15dc7f0"}
+{"timestamp": 1794838179754, "message": "REPORT RequestId: 3423860d-d3fd-47b6-b19f-b995b15dc7f0\tDuration: 1.54 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179759, "message": "START RequestId: 7b58caa0-f68d-431d-8991-c1d416090fbc Version: $LATEST"}
+{"timestamp": 1794838179760, "message": "{\"event\": \"rejected\", \"request_id\": \"7b58caa0-f68d-431d-8991-c1d416090fbc\", \"status\": 400, \"error\": \"invalid_text_type\", \"ms\": 0.03}"}
+{"timestamp": 1794838179775, "message": "END RequestId: 7b58caa0-f68d-431d-8991-c1d416090fbc"}
+{"timestamp": 1794838179775, "message": "REPORT RequestId: 7b58caa0-f68d-431d-8991-c1d416090fbc\tDuration: 14.86 ms\tBilled Duration: 15 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179780, "message": "START RequestId: e4b3d445-a6d1-4dc0-8859-73e8b8e73d29 Version: $LATEST"}
+{"timestamp": 1794838179780, "message": "{\"event\": \"rejected\", \"request_id\": \"e4b3d445-a6d1-4dc0-8859-73e8b8e73d29\", \"status\": 400, \"error\": \"text_too_long\", \"ms\": 0.04}"}
+{"timestamp": 1794838179795, "message": "END RequestId: e4b3d445-a6d1-4dc0-8859-73e8b8e73d29"}
+{"timestamp": 1794838179795, "message": "REPORT RequestId: e4b3d445-a6d1-4dc0-8859-73e8b8e73d29\tDuration: 15.00 ms\tBilled Duration: 15 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179800, "message": "START RequestId: 4703e322-42b0-4d88-b79d-644f658faa0a Version: $LATEST"}
+{"timestamp": 1794838179800, "message": "{\"event\": \"rejected\", \"request_id\": \"4703e322-42b0-4d88-b79d-644f658faa0a\", \"status\": 400, \"error\": \"invalid_json\", \"ms\": 0.04}"}
+{"timestamp": 1794838179815, "message": "END RequestId: 4703e322-42b0-4d88-b79d-644f658faa0a"}
+{"timestamp": 1794838179815, "message": "REPORT RequestId: 4703e322-42b0-4d88-b79d-644f658faa0a\tDuration: 14.68 ms\tBilled Duration: 15 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794838179861, "message": "INIT_START Runtime Version: python:3.12.mainlinev2.v86\tRuntime Version ARN: arn:aws:lambda:ap-northeast-2::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534"}
+{"timestamp": 1794839134241, "message": "INIT_START Runtime Version: python:3.12.mainlinev2.v86\tRuntime Version ARN: arn:aws:lambda:ap-northeast-2::runtime:9d15a516fef11563a8c452bd8d3fe5a5a120b73013e74783e925235557467534"}
+{"timestamp": 1794839134357, "message": "START RequestId: 95503dd5-fde8-4a6d-ad12-b5fb798d5cce Version: $LATEST"}
+{"timestamp": 1794839134478, "message": "{\"event\": \"predicted\", \"request_id\": \"95503dd5-fde8-4a6d-ad12-b5fb798d5cce\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"spam\", \"spam_probability\": 0.999595, \"chars\": 71, \"ms\": 120.44}"}
+{"timestamp": 1794839134499, "message": "END RequestId: 95503dd5-fde8-4a6d-ad12-b5fb798d5cce"}
+{"timestamp": 1794839134499, "message": "REPORT RequestId: 95503dd5-fde8-4a6d-ad12-b5fb798d5cce\tDuration: 141.51 ms\tBilled Duration: 254 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB\tInit Duration: 112.15 ms"}
+{"timestamp": 1794839134515, "message": "START RequestId: 37e36fd4-36bf-46eb-918e-f5c82c8576d1 Version: $LATEST"}
+{"timestamp": 1794839134517, "message": "{\"event\": \"predicted\", \"request_id\": \"37e36fd4-36bf-46eb-918e-f5c82c8576d1\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"ham\", \"spam_probability\": 0.004078, \"chars\": 45, \"ms\": 0.1}"}
+{"timestamp": 1794839134519, "message": "END RequestId: 37e36fd4-36bf-46eb-918e-f5c82c8576d1"}
+{"timestamp": 1794839134519, "message": "REPORT RequestId: 37e36fd4-36bf-46eb-918e-f5c82c8576d1\tDuration: 3.15 ms\tBilled Duration: 4 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839134549, "message": "START RequestId: a89978fc-7426-45c3-8138-94d240e9fd00 Version: $LATEST"}
+{"timestamp": 1794839134550, "message": "{\"event\": \"predicted\", \"request_id\": \"a89978fc-7426-45c3-8138-94d240e9fd00\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"ham\", \"spam_probability\": 0.000751, \"chars\": 26, \"ms\": 0.08}"}
+{"timestamp": 1794839134551, "message": "END RequestId: a89978fc-7426-45c3-8138-94d240e9fd00"}
+{"timestamp": 1794839134551, "message": "REPORT RequestId: a89978fc-7426-45c3-8138-94d240e9fd00\tDuration: 1.46 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839134569, "message": "START RequestId: c1469325-3998-44f9-ad42-734dbdec6340 Version: $LATEST"}
+{"timestamp": 1794839134569, "message": "{\"event\": \"rejected\", \"request_id\": \"c1469325-3998-44f9-ad42-734dbdec6340\", \"status\": 400, \"error\": \"missing_text\", \"ms\": 0.02}"}
+{"timestamp": 1794839134570, "message": "END RequestId: c1469325-3998-44f9-ad42-734dbdec6340"}
+{"timestamp": 1794839134570, "message": "REPORT RequestId: c1469325-3998-44f9-ad42-734dbdec6340\tDuration: 1.46 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839134598, "message": "START RequestId: ee335ee6-746b-4462-bcdc-fce2d4066b34 Version: $LATEST"}
+{"timestamp": 1794839134599, "message": "{\"event\": \"rejected\", \"request_id\": \"ee335ee6-746b-4462-bcdc-fce2d4066b34\", \"status\": 400, \"error\": \"empty_text\", \"ms\": 0.02}"}
+{"timestamp": 1794839134600, "message": "END RequestId: ee335ee6-746b-4462-bcdc-fce2d4066b34"}
+{"timestamp": 1794839134600, "message": "REPORT RequestId: ee335ee6-746b-4462-bcdc-fce2d4066b34\tDuration: 1.56 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839134619, "message": "START RequestId: 5197d356-5cd4-45d2-a60d-a0ffda1792b5 Version: $LATEST"}
+{"timestamp": 1794839134619, "message": "{\"event\": \"rejected\", \"request_id\": \"5197d356-5cd4-45d2-a60d-a0ffda1792b5\", \"status\": 400, \"error\": \"invalid_text_type\", \"ms\": 0.02}"}
+{"timestamp": 1794839134620, "message": "END RequestId: 5197d356-5cd4-45d2-a60d-a0ffda1792b5"}
+{"timestamp": 1794839134620, "message": "REPORT RequestId: 5197d356-5cd4-45d2-a60d-a0ffda1792b5\tDuration: 1.46 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839134640, "message": "START RequestId: b4c89f69-63e4-441d-abb2-66e572a1b801 Version: $LATEST"}
+{"timestamp": 1794839134640, "message": "{\"event\": \"rejected\", \"request_id\": \"b4c89f69-63e4-441d-abb2-66e572a1b801\", \"status\": 400, \"error\": \"text_too_long\", \"ms\": 0.03}"}
+{"timestamp": 1794839134642, "message": "END RequestId: b4c89f69-63e4-441d-abb2-66e572a1b801"}
+{"timestamp": 1794839134642, "message": "REPORT RequestId: b4c89f69-63e4-441d-abb2-66e572a1b801\tDuration: 1.56 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839134659, "message": "START RequestId: c17257a7-f370-40fb-a9d6-32dea6c59bf7 Version: $LATEST"}
+{"timestamp": 1794839134660, "message": "{\"event\": \"rejected\", \"request_id\": \"c17257a7-f370-40fb-a9d6-32dea6c59bf7\", \"status\": 400, \"error\": \"invalid_json\", \"ms\": 0.04}"}
+{"timestamp": 1794839134678, "message": "END RequestId: c17257a7-f370-40fb-a9d6-32dea6c59bf7"}
+{"timestamp": 1794839134678, "message": "REPORT RequestId: c17257a7-f370-40fb-a9d6-32dea6c59bf7\tDuration: 18.30 ms\tBilled Duration: 19 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
+{"timestamp": 1794839135729, "message": "START RequestId: 30bce72d-d548-4fdd-b743-9249c82d8989 Version: $LATEST"}
+{"timestamp": 1794839135729, "message": "{\"event\": \"predicted\", \"request_id\": \"30bce72d-d548-4fdd-b743-9249c82d8989\", \"status\": 200, \"model_version\": \"94c479816748\", \"label\": \"spam\", \"spam_probability\": 0.972045, \"chars\": 73, \"ms\": 0.09}"}
+{"timestamp": 1794839135731, "message": "END RequestId: 30bce72d-d548-4fdd-b743-9249c82d8989"}
+{"timestamp": 1794839135731, "message": "REPORT RequestId: 30bce72d-d548-4fdd-b743-9249c82d8989\tDuration: 1.66 ms\tBilled Duration: 2 ms\tMemory Size: 128 MB\tMax Memory Used: 41 MB"}
