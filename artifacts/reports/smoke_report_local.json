@@ -1,7 +1,7 @@
 {
   "target": "local-handler",
   "expected_model_version": "94c479816748",
-  "checked_at": "2026-11-15T15:31:21+00:00",
+  "checked_at": "2026-11-16T14:25:16+00:00",
   "passed": 8,
   "failed": 0,
   "cases": [
@@ -14,7 +14,7 @@
         "spam_probability": 0.999595,
         "threshold": 0.5,
         "model_version": "94c479816748",
-        "request_id": "fc283c8a67094e259a1cb5e53203d735"
+        "request_id": "51610feaee7e43869db1ac3ee556258c"
       },
       "passed": true,
       "problems": []
@@ -28,7 +28,7 @@
         "spam_probability": 0.004078,
         "threshold": 0.5,
         "model_version": "94c479816748",
-        "request_id": "27e01e66cc1442db8156ca5ad0b56544"
+        "request_id": "b267ad8389444e5eb04de4ca9f99de3c"
       },
       "passed": true,
       "problems": []
@@ -42,7 +42,7 @@
         "spam_probability": 0.000751,
         "threshold": 0.5,
         "model_version": "94c479816748",
-        "request_id": "9a9828f072b84edcbb9d60e454001be7"
+        "request_id": "7805f3a1e4df4932bd099e8915f774ba"
       },
       "passed": true,
       "problems": []
@@ -54,7 +54,7 @@
       "response": {
         "error": "missing_text",
         "message": "필수 입력값 text가 없습니다",
-        "request_id": "e46265ff1f864f68ac1388eb7f9e30ab"
+        "request_id": "67750fa958c04829a22e3fa92013855e"
       },
       "passed": true,
       "problems": []
@@ -66,7 +66,7 @@
       "response": {
         "error": "empty_text",
         "message": "text가 비어 있습니다",
-        "request_id": "b569db3864744c3ba38a6203a3eeabb9"
+        "request_id": "faa0247bcfd24e0b833eba36e0e5370f"
       },
       "passed": true,
       "problems": []
@@ -78,7 +78,7 @@
       "response": {
         "error": "invalid_text_type",
         "message": "text는 문자열이어야 합니다",
-        "request_id": "38fff781a0024ce88dc848d63637b179"
+        "request_id": "d7b62e3b26884b688ab7982402b22565"
       },
       "passed": true,
       "problems": []
@@ -90,7 +90,7 @@
       "response": {
         "error": "text_too_long",
         "message": "text는 1000자 이하여야 합니다",
-        "request_id": "cef65f51423e4c32883a67caa29f0c15"
+        "request_id": "6f01debaea6b46f491826e2b3ab69fe0"
       },
       "passed": true,
       "problems": []
@@ -102,7 +102,7 @@
       "response": {
         "error": "invalid_json",
         "message": "요청 본문이 JSON이 아닙니다",
-        "request_id": "77f9fcb09b2149fda9e2c58a23477061"
+        "request_id": "b60d8dc3b1c044258406725031340726"
       },
       "passed": true,
       "problems": []
